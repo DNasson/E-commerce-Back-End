@@ -20,44 +20,27 @@ THEN the data for each of these routes is displayed in a formatted JSON <br>
 WHEN I test API POST, PUT, and DELETE routes in Insomnia <br>
 THEN I am able to successfully create, update, and delete data in my database <br>
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+The motivation behind this project was to give a back end the uses the latest technologies. 
+The project was built because it provides a database that creates, deletes, and updates data. 
+By having the latest technology the company using this application can compete with other companies that specialize in e-commerce.
+I learned how to link code between routes, seeds, and models so that they can all work together to create a database. I learned the syntax for making the GET, POST, PUT and DELETE requests so they will do what is needed for the user. 
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
-
-## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+Utilize the green code button on the repository and copy the "SSH Key" into your terminal after 'git clone'
 
 ## Usage
+After downloading the code from the repository run mysql -u root -p in the db folder and source the "schema.sql" file. Use "control z" to suspend mysql and use "cd .." to get to the root of the project. Run "npm i", "npm run seed", and "node server.js" to open the server on the port given. Open insomnia and put in GET, PUT, POST, and DELETE commands according to the routing outlined to run the correct sequences.
 
-Provide instructions and examples for use. Include screenshots as needed.
+Run-through: https://watch.screencastify.com/v/63rlVT8gsWUVLxRB01rx 
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+GitHub Repository: https://github.com/DNasson/E-commerce-Back-End
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
+Starter Code: https://utah.bootcampcontent.com/utah-coding-bootcamp/UofU-VIRT-FSF-PT-02-2023-U-LOLC/-/tree/main/01%20-%20Class%20Content/13-ORM/02-Challenge/Develop 
 
 ## License
 
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
+MIT License
